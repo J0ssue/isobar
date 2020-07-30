@@ -15,9 +15,22 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-bottom: 50px;
   }
   &__column {
     flex-basis: 100%;
+  }
+
+  &__btn {
+    display: block;
+    background-color: black;
+    margin: 0px auto;
+    padding: 5px 10px;
+    text-align: center;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-transform: capitalize;
   }
 
   @media (min-width: 768px) {

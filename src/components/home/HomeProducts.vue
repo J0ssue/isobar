@@ -17,7 +17,9 @@
         <product-card :product="product" />
       </div>
     </main>
-    <button>view all products</button>
+    <button class="home-products__btn font-roboto-medium">
+      view all products
+    </button>
   </section>
 </template>
 
