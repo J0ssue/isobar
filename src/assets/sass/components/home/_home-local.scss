@@ -6,6 +6,7 @@
     flex-basis: 25%;
   }
   &__image-container {
+    display: none;
     position: absolute;
     left: 0px;
     top: 49%;
@@ -51,5 +52,10 @@
   }
   &__horizontal-separator {
     margin-right: 5px;
+  }
+  @media (min-width: 792px) {
+    &__image-container {
+      display: block;
+    }
   }
 }
