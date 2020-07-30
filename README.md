@@ -1,4 +1,6 @@
-# visit live site by clicking this link [isobar](https://quizzical-leakey-db60d8.netlify.app/)
+# visit live site by clicking this link::: [isobar](https://quizzical-leakey-db60d8.netlify.app/)
+
+## or use this url https://quizzical-leakey-db60d8.netlify.app/
 
 ## Project setup
 ```
