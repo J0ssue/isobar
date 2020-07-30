@@ -1,0 +1,33 @@
+.home-products {
+  padding: 50px 0px;
+  &__uppertext {
+    text-transform: uppercase;
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 8px;
+  }
+  &__title {
+    font-size: 1.7em;
+    letter-spacing: 1.8px;
+    margin-bottom: 25px;
+  }
+  &__row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  &__column {
+    flex-basis: 100%;
+  }
+
+  @media (min-width: 768px) {
+    &__column {
+      flex-basis: calc(50% - 20px);
+    }
+  }
+  @media (min-width: 1024px) {
+    &__column {
+      flex-basis: calc(33.3% - 10px);
+    }
+  }
+}

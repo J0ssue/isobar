@@ -1,0 +1,53 @@
+.home-statement {
+  color: white;
+  background-image: url("../../assets/images/test-2.jpg");
+  padding: 100px 0px;
+  text-align: center;
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  &__title {
+    width: 300px;
+    margin-bottom: 10px;
+  }
+  &__description {
+    width: 300px;
+    margin-bottom: 20px;
+  }
+  &__button {
+    width: 100%;
+    text-align: center;
+    padding: 8px 0px;
+    background-color: white;
+    border-radius: 5px;
+    text-transform: capitalize;
+    border: none;
+    color: gray;
+  }
+
+  @media (min-width: 768px) {
+    text-align: right;
+
+    .container {
+      align-items: flex-end;
+    }
+
+    &__title {
+      width: 370px;
+      margin-left: auto;
+      letter-spacing: 1.6px;
+      font-size: 2em;
+    }
+
+    &__description {
+      width: 331px;
+    }
+    &__button {
+      width: auto;
+      padding: 8px 20px;
+    }
+  }
+}

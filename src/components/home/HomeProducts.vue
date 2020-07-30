@@ -2,9 +2,11 @@
   <section class="home-products container">
     <header class="home-products__header">
       <p class="home-products__uppertext">
-        {{ productsData.header.uppertext }}
+        {{ productsData.header.upper_text }}
       </p>
-      <h2>{{ productsData.header.title }}</h2>
+      <h2 class="home-products__title font-roboto-medium">
+        {{ productsData.header.title }}
+      </h2>
     </header>
     <main class="home-products__row">
       <div
