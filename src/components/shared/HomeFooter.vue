@@ -3,12 +3,33 @@
     <div class="container">
       <div class="home-footer__row">
         <div class="home-footer__column">
-          <img style="width: 100px;" :src="logo" alt="logo image" />
+          <router-link class="home-nav__logo" to="#">
+            <img :src="logo" alt="logo image" />
+            <span>brand</span>
+          </router-link>
         </div>
         <div class="home-footer__column">
-          <font-awesome-icon :icon="['fab', 'instagram']" />
-          <font-awesome-icon :icon="['fab', 'twitter']" />
-          <font-awesome-icon :icon="['fab', 'facebook']" />
+          <a
+            href="https://www.twitter.com"
+            target="_blank"
+            class="home-footer__link"
+          >
+            <font-awesome-icon :icon="['fab', 'twitter']" />
+          </a>
+          <a
+            href="https://www.facebook.com"
+            target="_blank"
+            class="home-footer__link"
+          >
+            <font-awesome-icon :icon="['fab', 'facebook']" />
+          </a>
+          <a
+            href="https://www.instagram.com"
+            target="_blank"
+            class="home-footer__link"
+          >
+            <font-awesome-icon :icon="['fab', 'instagram']" />
+          </a>
         </div>
       </div>
     </div>

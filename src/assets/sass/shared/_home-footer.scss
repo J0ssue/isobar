@@ -1,0 +1,34 @@
+.home-footer {
+  color: white;
+  background-color: black;
+  padding: 20px 0px;
+  &__row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  &__column {
+    flex-basis: 100%;
+  }
+  &__column:nth-of-type(2) {
+    display: flex;
+    justify-content: center;
+  }
+
+    &__link {
+      color: inherit;
+    }
+    &__link:nth-of-type(2) {
+      margin: 0px 10px;
+    }
+
+  @media (min-width: 768px) {
+    &__column {
+      flex-basis: 50%;
+    }
+    &__column:nth-of-type(2) {
+      justify-content: flex-end;
+    }
+  }
+}
