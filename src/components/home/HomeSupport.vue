@@ -5,7 +5,9 @@
         <p class="home-support__upper-text">
           {{ supportData.header.upper_text }}
         </p>
-        <h2 class="home-suppoert__title">{{ supportData.header.title }}</h2>
+        <h2 class="home-suppoert__title font-roboto-medium">
+          {{ supportData.header.title }}
+        </h2>
       </div>
       <div class="home-support__column">
         <p class="home-support__description">

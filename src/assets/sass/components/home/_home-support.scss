@@ -12,7 +12,7 @@
     flex-basis: 100%;
   }
 
-  &__upper-text{
+  &__upper-text {
     text-transform: uppercase;
     font-size: 12px;
     color: gray;
@@ -31,6 +31,28 @@
   @media (min-width: 1024px) {
     &__column {
       flex-basis: 50%;
+    }
+  }
+}
+
+.home-support {
+  &__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  &__cards-column {
+    flex-basis: 100%;
+  }
+
+  @media (min-width: 768px) {
+    &__cards-column {
+      flex-basis: calc(50% - 20px);
+    }
+  }
+  @media (min-width: 1024px) {
+    &__cards-column {
+      flex-basis: calc(33.3% - 25px);
     }
   }
 }
