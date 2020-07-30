@@ -1,13 +1,13 @@
 <template>
   <section class="home-support container">
     <header class="home-support__row">
-      <div class="home-suppoert__column">
-        <p class="home-suppoert__upper-text">
+      <div class="home-support__column">
+        <p class="home-support__upper-text">
           {{ supportData.header.upper_text }}
         </p>
         <h2 class="home-suppoert__title">{{ supportData.header.title }}</h2>
       </div>
-      <div class="home-suppoert__column">
+      <div class="home-support__column">
         <p class="home-support__description">
           {{ supportData.header.description }}
         </p>
