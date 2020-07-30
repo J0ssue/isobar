@@ -1,0 +1,26 @@
+.home-hero {
+  color: white;
+  background-image: url("../../assets/images/test-2.jpg");
+  background-size: cover;
+  background-position: left -400px;
+  padding: 100px 0px;
+  line-height: 1.4;
+  &__title {
+    font-size: 42px;
+    letter-spacing: 3px;
+    width: 300px;
+  }
+  &__description {
+    width: 314px;
+    margin-bottom: 18px;
+  }
+  &__button {
+    background-color: transparent;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: 1px solid white;
+    text-transform: capitalize;
+    color: white;
+    cursor: pointer;
+  }
+}

@@ -1,3 +1,8 @@
 @import './base/main.scss';
-@import './home/main.scss';
 @import './shared/main.scss';
+
+// pages
+@import './pages/main.scss';
+
+// page components
+@import './components/home/main.scss';
